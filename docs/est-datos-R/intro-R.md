@@ -28,8 +28,12 @@ En 2012, 🆁 obtuvo mas de 2 millones de usuarios y continua creciendo cada añ
 
 ## Flexibilidad
 
+Como resultado de ser open source, grandes programadores siguen contribuyendo a mejorar el codigo existente de 🆁 y desarrollar nuevas capacidades. Esto a resultado en algunas poderosas herramientas que mejoran las capacidades tanto de modelamientos estadisticos como no estadisticos que estan llevando el análisis de datos a nuevos niveles.
+
+Paquetes de 🆁 estan haciendo más fácil crear `graficos interactivos` y `sitios web`, y producen reportes sofisticados en `HTML` y `PDF`.
+
 ## Comunidad
 
-
+La comunidad de 🆁 bastante diversa y comprometida. Estas generan constantemente recursos para aprender 🆁, tales como `libros`, `cursos online`, `grupos`, `workshops`, `conferencias`, etc. El soporte esta habilitado a través de `Q&A webistes`, `redes sociales`, y numerosos `blogs`.
 
 

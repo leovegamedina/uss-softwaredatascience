@@ -39,3 +39,6 @@ Manipula herramientas de vanguardia de Data Science, para desarrollar soluciones
 
 El curso se desarrolló en base a la siguiente bibliografía:
 
+- [Data Wrangling with R. Use R!](https://github.com/leovegamedina/uss-softwaredatascience/blob/main/books/Data%20Wrangling%20with%20R.%20Use%20R!.pdf)
+- [Data Wrangling with Python: Tips and Tools to Make Your Life Easier](https://github.com/leovegamedina/uss-softwaredatascience/blob/main/books/Data%20Wrangling%20with%20Python%20Tips%20and%20Tools%20to%20Make%20Your%20Life%20Easier.pdf)
+- [Intro to Python for Computer Science and Data Science: Learning to Program with AI, Big Data and The Cloud](https://github.com/leovegamedina/uss-softwaredatascience/blob/main/books/Intro%20to%20Python%20for%20Computer%20Science%20and%20Data%20Science%20Learning%20to%20Program%20with%20AI%2C%20Big%20Data%20and%20The%20Cloud.pdf)
