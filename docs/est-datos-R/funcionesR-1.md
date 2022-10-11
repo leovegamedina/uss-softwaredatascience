@@ -3,7 +3,7 @@ layout: default
 title: Funciones de XXX
 parent: Funciones en R
 grand_parent: Unidad 1 - Estructura de Datos en R
-permalink: /docs/est-datos-R/funcionesR/line-numbers/
+permalink: /docs/est-datos-R/funcionesR/funcionesR-1/
 ---
 
 # Code snippets with line numbers
