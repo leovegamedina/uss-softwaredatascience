@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Code
-parent: UI Components
+title: Funciones en R
+parent: Unidad 1 - Estructura de Datos en R
 has_children: true
 nav_order: 6
 ---

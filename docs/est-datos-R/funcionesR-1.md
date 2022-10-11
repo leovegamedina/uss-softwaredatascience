@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Code with line numbers
-parent: Code
-grand_parent: UI Components
-permalink: /docs/ui-components/code/line-numbers/
+title: Funciones de XXX
+parent: Funciones en R
+grand_parent: Unidad 1 - Estructura de Datos en R
+permalink: /docs/est-datos-R/funcionesR/line-numbers/
 ---
 
 # Code snippets with line numbers

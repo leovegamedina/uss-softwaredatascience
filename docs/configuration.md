@@ -70,8 +70,6 @@ mermaid:
   version: "9.1.3"
 ```
 
-See [the Code documentation]({{ site.baseurl }}{% link docs/ui-components/code.md %}#mermaid-diagram-code-blocks) for more configuration options and information.
-
 ## Aux links
 
 ```yaml
@@ -206,7 +204,6 @@ The value of `callouts_level` is either `quiet` or `loud`;
 The default level is `quiet` when using the `light` or custom color schemes,
 and `loud` when using the `dark color scheme.`
 
-See [Callouts]({{ site.baseurl }}{% link docs/ui-components/callouts.md %}) for more information.
 
 ## Google Analytics
 
