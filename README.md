@@ -1,11 +1,3 @@
----
-layout: default
-title: Bienvenida
-nav_order: 1
-description: "Curso de Software para Data Science para el Magister en Data Science USS."
-permalink: /
----
-
 # Curso: Software para Data Science
 Estable: v1.0
 {: .label .label-green }

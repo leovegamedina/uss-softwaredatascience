@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Aritmetica
-parent: Programación en 🆁
+parent: Programación
 grand_parent: Unidad 1 - Estructura de Datos en R
 permalink: /docs/R/programming/programming-3/
 nav_order: 3

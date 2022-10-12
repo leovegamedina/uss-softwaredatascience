@@ -8,5 +8,13 @@ permalink: /docs/R
 
 # Estructuras de Datos en R
 
-To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed.
-{: .fs-6 .fw-300 }
+En la Unidad 1 veremos la herramienta <img src="/uss-softwaredatascience/assets/images/r.svg" width="30"> y unos de sus IDE <img src="/uss-softwaredatascience/assets/images/rstudio.svg" width="70">, como podemos hacer la instalacion en nuestro equipo, y realizaremos el proceso de aprendizaje completo en la herramienta, desde entender la forma de programar, los tipos de datos, hasta trabajar con dataframes para futuros cursos y proyectos.
+{: .fs-6 .fw-300 .text-justify}
+
+Esta unidad consta de:
+
+| Evaluación          | Porcentaje | Modalidad   | Fecha
+|:--------------------|:-----------|:------------|:--------|
+| Control 1 (30 min.) | 15%        | Individual  | TBD |
+| Control 2 (30 min.) | 15%        | Individual  | TBD |
+| Trabajo 1           | 20%        | Grupal (máx. 3 personas)   | TBD |
