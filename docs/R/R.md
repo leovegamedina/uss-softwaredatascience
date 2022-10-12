@@ -3,7 +3,7 @@ layout: default
 title: Unidad 1 - Estructura de Datos en R
 nav_order: 2
 has_children: true
-permalink: /docs/est-datos-R
+permalink: /docs/R
 ---
 
 # Estructuras de Datos en R

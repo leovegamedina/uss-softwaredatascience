@@ -6,6 +6,8 @@ description: "Curso de Software para Data Science para el Magister en Data Scien
 permalink: /
 ---
 
+# Curso: Software para Data Science
+
 # Acerca de mí. 🙋🏻‍♂️
 
 Hola!, mi nombre es **Leonel Vega Medina**, Data Scientist de profesión que actualmente trabaja para la empresa `Cencosud Scotiabank`. Soy Ingeniero Civil Industrial, con Magister en Data Science de la misma casa de estudios! 👨🏻‍🎓. 

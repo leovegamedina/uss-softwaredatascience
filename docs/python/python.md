@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Utilities
-nav_order: 4
+title: Unidad 2 - Estructuras de Datos en Python
+nav_order: 3
 has_children: true
-permalink: docs/utilities
+permalink: docs/python
 ---
 
-# Utilities
+# Estructuras de Datos en Python
 {: .no_toc }
 
 CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size.

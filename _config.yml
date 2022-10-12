@@ -21,6 +21,9 @@ url: "https://leovegamedina.github.io" # the base hostname & protocol for your s
 
 permalink: pretty
 
+gems:
+  - jekyll-inline-svg
+
 exclude:
  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
    - .sass-cache/
@@ -100,9 +103,10 @@ aux_links_new_tab: false
 nav_sort: case_sensitive # Capital letters sorted before lowercase
 
 # External navigation links
-nav_external_links:
-  - title: Just the Docs on GitHub
-    url: https://github.com/just-the-docs/just-the-docs
+# nav_external_links:
+#   - title: Just the Docs on GitHub
+#     url: https://github.com/just-the-docs/just-the-docs
+
 
 # Footer content
 # appears at the bottom of every page's main content
@@ -169,3 +173,7 @@ compress_html:
   profile: false
   # ignore:
   #   envs: all
+
+svg:
+  optimize: true
+

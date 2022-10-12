@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Introducción a R
+title: Qué es 🆁
 parent: Unidad 1 - Estructura de Datos en R
 nav_order: 1
 ---
 
-# Introducción a R
+# Qué es 🆁
 
 🆁 es un lenguaje creado para el análisis de datos y gráficos. Esta es la definición que fue usada por Ross Ihaka y Robert Gentleman en su [paper](https://www.jstor.org/stable/1390807) desarrollado en 1996. Durante la decada pasada, el lenguaje de programación 🆁 ha pasado a se una de las herramientas mas utilizadas para estadistica y data science. Sus aplicaciones van desde:
 
@@ -35,5 +35,3 @@ Paquetes de 🆁 estan haciendo más fácil crear `graficos interactivos` y `sit
 ## Comunidad
 
 La comunidad de 🆁 bastante diversa y comprometida. Estas generan constantemente recursos para aprender 🆁, tales como `libros`, `cursos online`, `grupos`, `workshops`, `conferencias`, etc. El soporte esta habilitado a través de `Q&A webistes`, `redes sociales`, y numerosos `blogs`.
-
-
