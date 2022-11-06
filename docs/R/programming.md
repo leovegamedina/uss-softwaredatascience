@@ -6,8 +6,8 @@ has_children: true
 nav_order: 4
 ---
 
-# Programación en 🆁
+# Programación en <img src="/uss-softwaredatascience/assets/images/r.svg" width="40">
 
-Use labels as a way to add an additional mark to a section of your docs. Labels come in a few colors. By default, labels will be blue.
+En esta sección veremos conceptos basicos de programación en <img src="/uss-softwaredatascience/assets/images/r.svg" width="20">.
 
 {: .fs-6 .fw-300 }

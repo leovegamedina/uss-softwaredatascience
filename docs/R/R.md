@@ -15,6 +15,6 @@ Esta unidad consta de:
 
 | Evaluación          | Porcentaje | Modalidad   | Fecha
 |:--------------------|:-----------|:------------|:--------|
-| Control 1 (30 min.) | 15%        | Individual  | TBD |
-| Control 2 (30 min.) | 15%        | Individual  | TBD |
-| Trabajo 1           | 20%        | Grupal (máx. 3 personas)   | TBD |
+| Control 1 (30 min.) | 10%        | Individual  | TBD |
+| Control 2 (30 min.) | 10%        | Individual  | TBD |
+| Trabajo 1           | 30%        | Grupal (máx. 3 personas)   | TBD |

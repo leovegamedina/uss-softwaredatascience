@@ -59,7 +59,7 @@ El editor de codigos incluye una variedad de caracteristicas que mejoran la prod
 
 ## 2. R Console
 
-
+Acá puedes codificar directamente en la ventana pero no quedará guardado el codigo. Es recomendable utilizar esta ventana cuando quieres simplemente ejecutar algún calculo. También acá es donde verás tus `outputs` cuando ejecutes algún script.
 
 ## 3. Workspace Environment
 
@@ -92,7 +92,7 @@ rm(c("object1", "object2"))
 rm(list = ls())
 ```
 
-Tambien puedes ver tus comandos previos en tu workspace environment cliqueando el tab **History**, o bien en la consola:
+Tambien puedes ver tus comandos previos en tu workspace environment cliqueando el tab `History`, o bien en la consola:
 
 ```r
 # list all objects
@@ -104,5 +104,63 @@ history(100)
 history(Inf) 
 ```
 
+Adicional a esto, puedes guardar y cargar tus `workspaces`. Estos quedaran con la extensión `.Rdata`.
+
+```r
+# save all items in workspace to a .RData file
+save.image()
+# save specified objects to a .RData file
+save(object1, object2, file = "myfile.RData")
+# load workspace into current session
+load("myfile.RData")
+```
+
+{: .important-title }
+> Importante: Guardar en otro working directory
+>
+> Nota que guardando el `workspace` sin especificar el 	`working directory` hara que por defecto guarde en el directorio actual. Puedes especificar donde quieres guardar el `.RData` al incluir el path: 
+```r
+save(object1, object2, file = "/users/name/folder/myfile.RData")
+```
 
 ## 4. Miscelaneos
+
+Esta ventana contiene multiples tabs. El tab `Files` te permite ver cuales archivos estan disponibles en tu working directory. El tab `Plots` mostrará cualquier visualizacion que es producida por tu codigo. El tab `Packages` listará todos los paquetes descargados en tu computadora y tambien los que estan cargados en tu sesión. Finalmente el tab `Help` te permite buscar topicos en los que necesites ayuda y tambien despliega cualquier respuesta de ayuda.
+
+# Ayuda General
+
+Para levantar los recursos de ayuda general puedes usar:
+
+```r
+# provides general help links
+help.start()
+# searches the help system for documentation matching a given character string
+help.search ("text") 
+```
+
+Para ayuda en funciones que esten instaladas en tu computador:
+
+```r
+# provides details for specific function
+help(functionname)
+# provides same information as help(functionname)
+?functionname
+# provides examples for said function
+example(functionname) 
+```
+
+{: .important-title }
+> Importante
+>
+> `help()` y `?` solo funcionan con funciones de paquetes cargados en la sesion. Si quieres ver detalles de funciones en un paquete que esta instalado en tu computador pero no se encuentra cargado en tu sesión puedes usar:
+```r
+help(functionname, package = "packagename")
+# another option
+help(packagename::functionname)
+```
+
+Por otro lado, puedes obtener ayuda de los siguientes recursos:
+
+- **RSiteSearch("key phrase")**: busca por la frase clave en el sitio web de R Project [http://search.r-project.org/](http://search.r-project.org/)
+- **Stack Overflow**: sitio de Q&A orientado a programación [http://stackoverflow.com/questions/tagged/r](http://stackoverflow.com/questions/tagged/r)
+- **Cross Validated**: sitio de Q&A orientado a analisis estadistico [http://stats.stackexchange.com/questions/tagged/r](http://stats.stackexchange.com/questions/tagged/r)
