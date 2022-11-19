@@ -1,8 +1,8 @@
 ---
 layout: default
-title: 📝 Control 2
+title: 📝 Taller 2
 parent: Unidad 1 - Estructura de Datos en R
-nav_order: 13
+nav_order: 12
 ---
 
-# Control 2 📝
+# Taller 2 📝

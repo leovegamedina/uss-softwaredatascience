@@ -158,6 +158,7 @@ ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (t
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-latex
 
 kramdown:
   syntax_highlighter_opts:
@@ -169,11 +170,14 @@ compress_html:
   comments: all
   endings: all
   startings: []
-  blanklines: false
+  blanklines: true
   profile: false
   # ignore:
   #   envs: all
 
 svg:
   optimize: true
+
+# LaTeX rendering via "katex" (KaTeX, default) or "mathjax" (MathJax) or "none" / "off" (NO rendering)
+latex: katex
 

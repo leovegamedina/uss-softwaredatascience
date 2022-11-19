@@ -217,5 +217,5 @@ unlist(strsplit(a, split = "-"))
 > {: .highlight }
   Se recomienda que puedan revisar el paquete de tydiverse [`stringr`](https://stringr.tidyverse.org/) ya que esta fuera del scope del curso, pero tiene una ***gran capacidad de hacer manipulacion de strings***.
 
-  > {: .highlight }
-  Se recomienda que puedan revisar el ***Capitulo 6*** del libro [Data Wrangling with R. Use R!](https://github.com/leovegamedina/uss-softwaredatascience/blob/main/books/Data%20Wrangling%20with%20R.%20Use%20R!.pdf) donde se enseña el uso de `Regex`, el cual esta fuera del scope del curso.
+> {: .highlight }
+Se recomienda que puedan revisar el ***Capitulo 6*** del libro [Data Wrangling with R. Use R!](https://github.com/leovegamedina/uss-softwaredatascience/blob/main/books/Data%20Wrangling%20with%20R.%20Use%20R!.pdf) donde se enseña el uso de `Regex`, el cual esta fuera del scope del curso.
