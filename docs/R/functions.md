@@ -211,3 +211,23 @@ tri_recursion(6)
 ```
 
 <img src="/uss-softwaredatascience/assets/images/recursividad.png" width="550">
+
+## Guardado Funciones
+
+Para guardar funciones en R, se puede guardar un script (.R) con la funcion, y luego invocarla con la funcion `source()`. Es importante que el archivo de la función este en el mismo ambiente que el proyecto, sino se tendra que definir la ruta completa en la funcion `source()`.
+
+## Ejercicios
+
+1. Cree una función que calcuale la varianza de un vector, usando la siguiente formula:
+$$ Var(x) = \frac{1}{n-1}\sum_{i=0}^{n}{(x_i - \bar{x})^2}$$ 
+el vector es: `c(10,8,5,3,12)`
+
+2. Usando la funcion anterior, calcule la simetría (skew) del mismo vector.
+$$ Skew(x) = \frac{\frac{1}{n-2}(\sum_{i=1}^{n}{(x_i - \bar{x})^3})}{Var(x)^{3/2}}$$
+
+3. Escriba una función que calcule la suma de enteros no negativos con `recursividad`.
+
+4. Cree una funcion anidada que calcule el factorial de un numero, esta funcion debe cumplir las siguientes condiciones:
+  - La funcion factorial se debe calcular con `recursividad`.
+  - Si el valor no es entero, debe entregar el mensaje: `"Error! El valor no es un numero"`.
+  - Si el valor es negativo, debe entregar el mensaje: `"Error! El numero debe ser no negativo"`.

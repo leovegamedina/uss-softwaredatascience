@@ -1,0 +1,46 @@
+1.
+varianza <- function(x, na.rm = TRUE) {
+  n <- length(x)
+  m <- mean(x, na.rm = TRUE)
+  sq_err <- (x - m)^2
+  sum(sq_err) / (n - 1)
+}
+
+2.
+skewness <- function(x, na.rm = FALSE) {
+  n <- length(x)
+  m <- mean(x, na.rm = na.rm)
+  v <- var(x, na.rm = na.rm)
+  (sum((x - m) ^ 3) / (n - 2)) / v ^ (3 / 2)
+}
+
+3.
+sum_digito <- function(x){
+  if(x==0){
+    return(0)
+  }
+  else{
+    return(x%%10 + sum_digito(as.integer(x/10)))
+  }
+}
+
+4.
+get_fact <- function(num){
+  factorial <- function(num){
+    if(num == 0 | num == 1){
+      return(1)
+    }
+    else{
+      return(num * factorial(num -1))
+    }
+  }
+  if(is.numeric(num)==FALSE){
+    print("Error! El valor no es un numero")
+  }
+  if(num < 0){
+    print("Error! El numero debe ser no negativo")
+  }
+  return(factorial(num))
+}
+
+get_fact(3)

@@ -1,0 +1,9 @@
+4.
+remainder = n %% 3
+  if (remainder == 0) {
+    return(7*n+3)
+  } else if (remainder == 1) {
+    return((7*n+2)/3)
+  } else {  
+    return((n-2)/3)
+  }

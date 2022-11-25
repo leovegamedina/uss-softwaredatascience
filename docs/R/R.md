@@ -15,6 +15,6 @@ Esta unidad consta de:
 
 | Evaluación          | Porcentaje | Modalidad   | Fecha
 |:--------------------|:-----------|:------------|:--------|
-| Control 1 (30 min.) | 10%        | Individual  | TBD |
-| Control 2 (30 min.) | 10%        | Individual  | TBD |
-| Trabajo 1           | 30%        | Grupal (máx. 3 personas)   | TBD |
+| Taller 1 (30 min.) | 10%        | Dual  | 02/12/2022 16:40 |
+| Taller 2 (30 min.) | 10%        | Dual  | 16/12/2022 16:40 |
+| Trabajo 1           | 30%        | Grupal (máx. 3 personas)   | 15/12/2022 23:59 |

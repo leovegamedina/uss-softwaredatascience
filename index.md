@@ -39,6 +39,19 @@ La asignatura tributa a los siguientes `Desempeños Esperados`:
 
 Manipula herramientas de vanguardia de Data Science, para desarrollar soluciones a problemas en la organización u otras áreas de indagación.
 
+## Horarios
+
+| Dia        | Hora           |
+|------------|----------------|
+| 25/11/2022 | 14:40 -  17:10 |
+| 26/11/2022 | 8:30 - 11:00   |
+| 02/12/2022 | 14:40 -  17:10 |
+| 03/12/2022 | 8:30 - 11:00   |
+| 16/12/2022 | 14:40 -  17:10 |
+| 17/12/2022 | 8:30 - 11:00   |
+| 06/01/2023 | 14:40 -  17:10 |
+| 07/01/2023 | 8:30 - 11:00   |
+
 # Bibliografía 📚
 
 El curso se desarrolló en base a la siguiente bibliografía:

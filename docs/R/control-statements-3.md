@@ -29,3 +29,10 @@ while(test_expression) {
 ## Ejercicios
 
 1. Escriba un bucle `while()` que imprima la variable `i` que se incrementa de 2 a 5, omitiendo el valor 3.
+
+2. Convierta numeros decimales a binarios.
+<img src="/uss-softwaredatascience/assets/images/decimal_binary.png" width="550">
+
+3. Encuentre los 10 primeros multiplos de un numero.
+
+4. Reverse un numero usando while. No puede usar `rev()`.

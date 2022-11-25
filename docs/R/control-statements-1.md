@@ -121,3 +121,23 @@ if(x >= 10){
 }
 ## [1] "x is within acceptable tolerance levels"
 ```
+
+## Ejercicios
+
+1. Escriba con sentencia if, si el numero x es positivo/negativo y si es par/impar.
+
+2. Escriba con sentencia if, si se cumple o no la condicion de que a es mayor que b y que que c es mayor que a. Si se cumple dicha condicion, verifique si b es par o impar.
+
+a <- 200
+b <- 33
+c <- 500
+
+3. Calcule si para un año dado, este es bisiesto o no. Para calcular esto, tenga en cuenta de que un año bisiesto es divisible por 4, pero adicional, si el año es divisible por 100, tambien debe ser divisble por 400 para ser considerado bisiesto.
+
+4. Calcule lo siguiente:
+
+$$ 
+7n+3~si~n~es~divisible~por~3\\
+\frac{7n+2}{3}~si~n~tiene~residuo~1~al~dividir~por~3\\
+\frac{n-2}{3}~si~n~tiene~residuo~2~al~dividir~por~3 
+ $$
