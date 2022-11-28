@@ -68,14 +68,93 @@ x
 
 1. Escriba un programa para escribir del 1 al 30 con la condición de que salte todos los múltiplos de 3.
 
+```r
+for(i in 1:30){
+  if(i%%3 == 0){
+    next
+  }
+  print(i)
+}
+## [1] 1
+## [1] 2
+## [1] 4
+## [1] 5
+## [1] 7
+## [1] 8
+## [1] 10
+## [1] 11
+## [1] 13
+## [1] 14
+## [1] 16
+## [1] 17
+## [1] 19
+## [1] 20
+## [1] 22
+## [1] 23
+## [1] 25
+## [1] 26
+## [1] 28
+## [1] 29
+```
+
 1. Escriba un bucle repeat() que imprima todos los números pares del 2 al 10, incrementando el
 variable i comenzando con la inicialización de `i <- 0` fuera del bucle.
 
-1. Escriba un ciclo anidado, donde el ciclo for() externo incrementa `a` 3 veces, y el ciclo for() interno incrementa `b` 3 veces. La instrucción `break` sale del bucle for() interno después de 2 incrementos. El bucle anidado imprime el
-valores de las variables, `a` y `b`.
+```r
+i <- 0
+repeat{
+  i <- i + 2
+  print(i)
+  if(i == 10){
+    break
+  }
+}
+## [1] 2
+## [1] 4
+## [1] 6
+## [1] 8
+## [1] 10
+```
+
+1. Escriba un ciclo anidado, donde el ciclo for() externo incrementa `a` 3 veces, y el ciclo for() interno incrementa `b` 3 veces. La instrucción `break` sale del bucle for() interno después de 2 incrementos. El bucle anidado imprime los valores de las variables, `a` y `b`.
+
+```r
+for(a in 1:3){
+  for(b in 1:3){
+    print(c(a, b))
+    if (b == 2){
+      break
+    }
+  }
+}
+## [1] 1 1
+## [1] 1 2
+## [1] 2 1
+## [1] 2 2
+## [1] 3 1
+## [1] 3 2
+```
 
 1. Considere la siguiente serie que se usa para aproximar la función `sin(x)`:
 
 $$ sin(x) = \sum_{k=0}^{\infty}{\dfrac{(-1)^k}{(2k+1!)}x^{2k+1}} = x - \dfrac{x^3}{3!} + \dfrac{x^5}{5!} - \dfrac{x^7}{7!} + ...$$
 
 Escribe un bucle for para aproximar `sin(x)`. Pruebe diferentes números de términos, `n=5,10,50,100`. Compara tu bucle con la función `sin()`.
+
+```r
+val = 1
+sin = 0
+n = 5
+
+for(i in 0:n){
+  neg_term = (-1) ** i
+  den = factorial(2 * i + 1)
+  x_power = val ** (2 * i + 1)
+  calc = (neg_term / den) * x_power
+  sin = sin + calc
+}
+print(sin)
+## [1] 0.841471
+print(sin(val))
+## [1] 0.841471
+```

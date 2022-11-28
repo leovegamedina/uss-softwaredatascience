@@ -222,12 +222,76 @@ Para guardar funciones en R, se puede guardar un script (.R) con la funcion, y l
 $$ Var(x) = \frac{1}{n-1}\sum_{i=0}^{n}{(x_i - \bar{x})^2}$$ 
 el vector es: `c(10,8,5,3,12)`
 
+```r
+varianza <- function(x, na.rm = TRUE) {
+  n <- length(x)
+  m <- mean(x, na.rm = TRUE)
+  sq_err <- (x - m)^2
+  sum(sq_err) / (n - 1)
+}
+varianza(c(10,8,5,3,12))
+## [1] 13.3
+var(c(10,8,5,3,12))
+## [1] 13.3
+```
+
 2. Usando la funcion anterior, calcule la simetría (skew) del mismo vector.
 $$ Skew(x) = \frac{\frac{1}{n-2}(\sum_{i=1}^{n}{(x_i - \bar{x})^3})}{Var(x)^{3/2}}$$
 
+```r
+skewness <- function(x, na.rm = FALSE) {
+  n <- length(x)
+  m <- mean(x, na.rm = na.rm)
+  v <- var(x, na.rm = na.rm)
+  (sum((x - m) ^ 3) / (n - 2)) / v ^ (3 / 2)
+}
+skewness(c(10,8,5,3,12))
+## [1] -0.108857
+```
+
 3. Escriba una función que calcule la suma de enteros no negativos con `recursividad`.
+
+```r
+sum_digito <- function(x){
+  if(x==0){
+    return(0)
+  }
+  else{
+    return(x%%10 + sum_digito(as.integer(x/10)))
+  }
+}
+sum_digito(123)
+## [1] 6
+```
 
 4. Cree una funcion anidada que calcule el factorial de un numero, esta funcion debe cumplir las siguientes condiciones:
   - La funcion factorial se debe calcular con `recursividad`.
   - Si el valor no es entero, debe entregar el mensaje: `"Error! El valor no es un numero"`.
   - Si el valor es negativo, debe entregar el mensaje: `"Error! El numero debe ser no negativo"`.
+
+```r
+get_fact <- function(num){
+  factorial <- function(num){
+    if(num == 0 | num == 1){
+      return(1)
+    }
+    else{
+      return(num * factorial(num -1))
+    }
+  }
+  if(is.numeric(num)==FALSE){
+    print("Error! El valor no es un numero")
+  }
+  if(num < 0){
+    print("Error! El numero debe ser no negativo")
+  }
+  return(factorial(num))
+}
+
+get_fact(3)
+## [1] 6
+get_fact('3')
+## [1] "Error! El valor no es un numero"
+get_fact(-3)
+## [1] "Error! El numero debe ser no negativo"
+```

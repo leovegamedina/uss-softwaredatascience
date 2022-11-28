@@ -126,18 +126,80 @@ if(x >= 10){
 
 1. Escriba con sentencia if, si el numero x es positivo/negativo y si es par/impar.
 
-2. Escriba con sentencia if, si se cumple o no la condicion de que a es mayor que b y que que c es mayor que a. Si se cumple dicha condicion, verifique si b es par o impar.
+```r
+i <- -9
 
+if(i>0){
+  if(i%%2==0){
+    print('El numero es positivo y par.')
+  }else{
+    print('El numero es positivo e impar.')
+  }
+}else{
+  if(i%%2==0){
+    print('El numero es negativo y par.')
+  }else{
+    print('El numero es negativo e impar.')
+  }
+}
+## [1] "El numero es negativo e impar."
+```
+
+2. Escriba con sentencia if, si se cumple o no la condicion de que a es mayor que b y que que c es mayor que a. Si se cumple dicha condicion, verifique si b es par o impar.
+- a <- 200
+- b <- 33
+- c <- 500
+
+```r
 a <- 200
 b <- 33
 c <- 500
 
+if(a>b & c>a){
+  if(b%%2!=0){
+    print('Se cumple condicion y b es impar.')
+  }else{
+    print('Se cumple condicion y b no es impar.')
+  }
+}
+## [1] "Se cumple condicion y b es impar."
+```
+
 3. Calcule si para un año dado, este es bisiesto o no. Para calcular esto, tenga en cuenta de que un año bisiesto es divisible por 4, pero adicional, si el año es divisible por 100, tambien debe ser divisble por 400 para ser considerado bisiesto.
 
-4. Calcule lo siguiente:
+```r
+year <- 1700
+
+if(year%%4==0 & year%%100!=0){
+  print(paste(year,'es un año bisiesto.'))
+}else if(year%%4==0 & year%%100==0){
+    if(year%%400==0){
+      print(paste(year,'es un año bisiesto.'))
+    }else{
+      print(paste(year,'no es un año bisiesto.'))
+    }
+}
+## [1] "1700 no es un año bisiesto."
+```
+
+4. Calcule lo siguiente segun sea el valor de `n`:
 
 $$ 
 7n+3~si~n~es~divisible~por~3\\
 \frac{7n+2}{3}~si~n~tiene~residuo~1~al~dividir~por~3\\
 \frac{n-2}{3}~si~n~tiene~residuo~2~al~dividir~por~3 
  $$
+
+ ```r
+n <- 10
+remainder = n %% 3
+
+if(remainder == 0){
+  print(7*n+3)
+}else if(remainder == 1){
+  print((7*n+2)/3)
+}else{  
+  print((n-2)/3)
+}
+## [1] 24
+```
