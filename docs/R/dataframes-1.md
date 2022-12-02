@@ -89,4 +89,4 @@ Guarda dataframes en archivos delimitados:
 
 Aca pueden ver el cheatsheet del paquete:
 
-[![](/uss-softwaredatascience/assets/images/readr_image.png)](https://github.com/leovegamedina/uss-softwaredatascience/blob/main/assets/images/datacamp.png)
+[![](/uss-softwaredatascience/assets/images/readr_image.png)](https://github.com/leovegamedina/uss-softwaredatascience/blob/main/assets/images/readr.pdf)

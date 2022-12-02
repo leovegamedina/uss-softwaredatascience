@@ -295,3 +295,6 @@ get_fact('3')
 get_fact(-3)
 ## [1] "Error! El numero debe ser no negativo"
 ```
+
+
+
