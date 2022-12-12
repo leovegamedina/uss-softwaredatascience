@@ -269,4 +269,4 @@ a_mess %>%
 
 Aca pueden ver el cheatsheet del paquete:
 
-[![](/uss-softwaredatascience/assets/images/tidyr_image.png)](https://github.com/leovegamedina/uss-softwaredatascience/blob/main/assets/images/readr.pdf)
+[![](/uss-softwaredatascience/assets/images/tidyr_image.png)](https://github.com/leovegamedina/uss-softwaredatascience/blob/main/assets/images/tidyr.pdf)

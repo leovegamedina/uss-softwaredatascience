@@ -17,4 +17,4 @@ Esta unidad consta de:
 |:--------------------|:-----------|:------------|:--------|
 | Taller 1 (30 min.) | 10%        | Dual  | 02/12/2022 16:40 |
 | Taller 2 (30 min.) | 10%        | Dual  | 16/12/2022 16:40 |
-| Trabajo 1           | 30%        | Grupal (máx. 3 personas)   | 15/12/2022 23:59 |
+| Trabajo 1           | 30%        | Grupal (máx. 3 personas)   | 17/12/2022 23:59 |

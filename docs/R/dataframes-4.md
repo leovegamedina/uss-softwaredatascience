@@ -288,3 +288,7 @@ Tambien otras funcion que tiene dplyr, son las funciones de `join()`. Esta cuent
 - `full_join(x, y, by = NULL)`: Incluye tanto x como y.
 - `semi_join(x, y, by = NULL)`: Incluye filas de x que coincidan con y pero solo mantiene las columnas de x.
 - `anti_join(x, y, by = NULL)`: Opuesto a semi_join().
+
+Aca pueden ver el cheatsheet del paquete:
+
+[![](/uss-softwaredatascience/assets/images/dplyr_image.png)](https://github.com/leovegamedina/uss-softwaredatascience/blob/main/assets/images/dplyr.pdf)
