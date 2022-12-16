@@ -17,4 +17,4 @@ Esta unidad consta de:
 | Evaluación          | Porcentaje | Modalidad   | Fecha
 |:--------------------|:-----------|:------------|:--------|
 | Taller 3 (30 min.) | 15%        | Dual  | 06/01/2023 16:40 |
-| Trabajo 2           | 35%        | Grupal (máx. 3 personas)   | 11/01/2023 23:59 |
+| Trabajo 2           | 35%        | Grupal (máx. 3 personas)   | 14/01/2023 23:59 |

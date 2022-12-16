@@ -18,3 +18,19 @@ Si desean descargar el instalador para otro OS o bien otra revision del software
 <img src="/uss-softwaredatascience/assets/images/download_buttom_vscode2.png" width="300">
 
 Una vez descargado el instalador, se debe seguir las instrucciones de instalacion.
+
+# Usando <img src="/uss-softwaredatascience/assets/images/vscode.png" width="25">
+
+Para comenzar a trabajar en un nuevo proyecto en Python, primero debemos conocer las distintas ventanas que tiene el software.
+
+<img src="/uss-softwaredatascience/assets/images/vscode_windows.png" width="1000">
+
+En la seccion en ***rojo***, tenemos el ribbon donde tenemos distintas opciones para interactuar con nuestro proyecto tales como Creacion de nuevos archivos, Guardado de archivos/workspaces, Edicion, Seleccion, Vistas, Ejecuciones, Terminales, etc...
+
+En la seccion en ***verde***, tenemos la vista de archivos del workspace (`Explorer`), tenemos la opcion de busqueda (`Search`), tambien esta `Source Control` para trabajar con Git, `Run and Debug` para hacer debbuging de codigo y `Extensions` para instalar distintas extensiones en <img src="/uss-softwaredatascience/assets/images/vscode.png" width="15">.
+
+La seccion ***naranja*** es la vista de los archivos en donde podemos desarrollar nuestro codigo!.
+
+Y la seccion ***morada***, es donde podemos interactuar con distintas terminales como `cmd`, `python`, `bash`, `gitbash`, `powershell`, etc...
+
+Estas no son las unicas ventanas que se pueden utilizar, ya que a traves de las extensiones podemos agregar otras ventanas para ayudarnos a crear de mejor manera nuestro proyecto, pero las anteriormente vistas son las ventanas basicas para trabajar en cualquier tipo de proyecto de ciencia de datos.
