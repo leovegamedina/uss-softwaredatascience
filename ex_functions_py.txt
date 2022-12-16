@@ -1,0 +1,46 @@
+1.
+def count(val):
+    vov = 0
+    con = 0
+    for i in range(len(val)):
+        if val[i] in ['a','e','i','o','u']:
+            vov = vov+1
+        else:
+            con = con + 1
+
+    print("Count of vowels is ",vov)
+    print("Count of consonant is ",con)
+
+x = input("Enter Value: ") # pythonlobby
+count(x)
+
+2.
+def factorial(num):
+    fact = 1
+    while(num!=0):
+        fact *= num
+        num = num - 1
+    print("Factorial is",fact)
+
+num = int(input("Enter number "))
+factorial(num)
+
+3.
+def palindromeCheck(num):
+    temp = num
+    rev = 0
+    while(num != 0):
+        r = num%10
+        rev = rev*10+r
+        num = num//10
+    if(rev == temp):
+        print(temp, "is a palindrome number")
+    else:
+        print(temp, "is not a palindrome number")
+    
+
+palindromeCheck(131)
+palindromeCheck(34)
+
+4.
+palim = lambda x: f"{x} is palindrome" if str(x) == "".join(reversed(str(x))) else f'{x} is not palindrome'

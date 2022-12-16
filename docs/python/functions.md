@@ -480,3 +480,49 @@ help(avg)
 ## avg(*args)
 ##     Returns the average of a list of numeric values.
 ```
+
+### Lambda Function
+
+Una función lambda es una pequeña función anónima. Lambda puede tomar cualquier cantidad de argumentos, pero solo puede tener una expresión:
+
+```python
+lambda arguments : expression
+```
+
+Se ejecuta la expresión y se devuelve el resultado:
+
+```python
+x = lambda a : a + 10
+print(x(5))
+## 15
+```
+
+Las funciones Lambda pueden tomar cualquier cantidad de argumentos:
+
+```python
+x = lambda a, b, c : a + b + c
+print(x(5, 6, 2))
+## 13
+```
+
+El poder de lambda se muestra mejor cuando los usa como una función anónima dentro de otra función:
+
+```python
+def myfunc(n):
+  return lambda a : a * n
+
+mydoubler = myfunc(2)
+
+print(mydoubler(11))
+## 22
+```
+
+## Ejercicios
+
+1. Defina una función que cuente vocales y consonantes en una palabra.
+
+1. Defina una función que devuelva Factorial de un número.
+
+1. Defina una funcion que indique si un numero es palindrome o no.
+
+1. Repita el ejercicio anterior pero usando lambda function.
